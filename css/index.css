@@ -281,9 +281,8 @@ footer {
   .home .walk .walk-text .btn {
     width: 100%;
     color: white;
-    background-color: #22283A;
-    padding: 25px 0;
     background-color: #2b334a;
+    padding: 25px 0;
   }
 }
 @media (max-width: 500px) {
