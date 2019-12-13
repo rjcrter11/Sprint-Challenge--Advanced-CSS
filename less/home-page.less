@@ -76,7 +76,7 @@
       }
 
       .btn {
-        .buttons(29%, white, @btn-bg-color);
+        .buttons(29%, @porcelain, @btn-bg-color);
         font-size: 1.8rem;
         padding: 1vh 0; 
         border-radius: 5px; 
@@ -84,8 +84,7 @@
 
         &:hover {
           color: @btn-bg-color; 
-          background-color: white;
-          // border: 1px solid @btn-bg-color; 
+          background-color: @porcelain; 
 
           @media @phone {
             color: lighten(@btn-bg-color, 5%);
@@ -93,7 +92,7 @@
         } // Closes hover 
 
         @media @phone {
-          .buttons(100%, white, lighten(@btn-bg-color, 5%));
+          .buttons(100%, @porcelain, lighten(@btn-bg-color, 5%));
           padding: 25px 0; 
         }
       } // Closes button

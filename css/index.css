@@ -278,7 +278,7 @@ footer {
 }
 .home .walk .walk-text .btn {
   width: 29%;
-  color: white;
+  color: #F6F7F8;
   background-color: #22283A;
   font-size: 1.8rem;
   padding: 1vh 0;
@@ -287,7 +287,7 @@ footer {
 }
 .home .walk .walk-text .btn:hover {
   color: #22283A;
-  background-color: white;
+  background-color: #F6F7F8;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn:hover {
@@ -297,7 +297,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
-    color: white;
+    color: #F6F7F8;
     background-color: #2b334a;
     padding: 25px 0;
   }
