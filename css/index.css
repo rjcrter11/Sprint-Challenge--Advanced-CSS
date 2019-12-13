@@ -147,7 +147,7 @@ h5 {
 }
 h1 {
   font-size: 4.25rem;
-  color: #07080b;
+  color: #010101;
 }
 h2 {
   font-size: 3.2rem;
@@ -191,7 +191,7 @@ nav .nav-wrapper {
 }
 nav .nav-wrapper a {
   text-decoration: none;
-  color: #454A59;
+  color: #24262e;
   text-align: center;
   width: 8%;
   font-size: 1.7rem;
@@ -287,6 +287,11 @@ footer {
 .home .walk .walk-text .btn:hover {
   color: #22283A;
   background-color: white;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn:hover {
+    color: #2b334a;
+  }
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {

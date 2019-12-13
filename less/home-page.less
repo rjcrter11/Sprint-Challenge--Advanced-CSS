@@ -84,7 +84,11 @@
         &:hover {
           color: @btn-bg-color; 
           background-color: white;
-        }
+
+          @media @phone {
+            color: lighten(@btn-bg-color, 5%);
+          }
+        } // Closes hover 
 
         @media @phone {
           .buttons(100%, white, lighten(@btn-bg-color, 5%));
