@@ -3,9 +3,17 @@
 nav {
   display: flex; 
   .flexes(row wrap, center);
-  background-color: @wild-sand; 
+  background-color: darken(@wild-sand, 1%); 
   border-bottom: 1px solid @sea-shell; 
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%; 
+  opacity: 0.8;  
   
+
 
   .nav-logo {
     width: 100%; 
@@ -17,6 +25,7 @@ nav {
     display: flex; 
     .flexes(row nowrap, center);
     width: 100%; 
+
     
 
     a {
@@ -24,6 +33,10 @@ nav {
       width: 8%;  
       font-size: 1.7rem; 
       padding: 1vh 0 1.5vh 0; 
+
+      &:hover {
+        color: black; 
+      }
 
       @media @phone {
         width: 18%; 
