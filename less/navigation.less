@@ -1,1 +1,33 @@
 // Navigation code here
+
+nav {
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: center; 
+  background-color: @wild-sand; 
+  border-bottom: 1px solid @sea-shell; 
+ 
+
+  .nav-logo {
+    width: 100%; 
+    text-align: center;
+    padding: 1.5vh 0; 
+  } // Closes logo
+  .nav-wrapper {
+    display: flex; 
+    justify-content: center;
+    width: 100%; 
+    
+
+    a {
+      text-decoration: none; 
+      width: 7%;  
+      font-size: 1.6rem; 
+      text-align: center;
+      padding: 1.5vh 0; 
+      color: @river-bend; 
+    }
+
+  } // Closes nav-wrapper
+
+} // Closes nav
