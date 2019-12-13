@@ -76,14 +76,16 @@
       }
 
       .btn {
-        .buttons(28%, white, @btn-bg-color);
+        .buttons(29%, white, @btn-bg-color);
         font-size: 1.8rem;
         padding: 1vh 0; 
         border-radius: 5px; 
+        border: 1px solid @btn-bg-color; 
 
         &:hover {
           color: @btn-bg-color; 
           background-color: white;
+          // border: 1px solid @btn-bg-color; 
 
           @media @phone {
             color: lighten(@btn-bg-color, 5%);
