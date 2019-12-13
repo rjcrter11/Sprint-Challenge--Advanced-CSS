@@ -146,7 +146,7 @@ h5 {
   color: #23293B;
 }
 h1 {
-  font-size: 4.5rem;
+  font-size: 4.25rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -173,7 +173,7 @@ nav {
 nav .nav-logo {
   width: 100%;
   text-align: center;
-  padding: 1.5vh 0;
+  padding: 1.5vh 0 1vh 0;
 }
 nav .nav-wrapper {
   display: flex;
@@ -185,9 +185,14 @@ nav .nav-wrapper a {
   text-decoration: none;
   color: #454A59;
   text-align: center;
-  width: 7%;
-  font-size: 1.6rem;
-  padding: 1.5vh 0;
+  width: 8%;
+  font-size: 1.7rem;
+  padding: 1vh 0 1.5vh 0;
+}
+@media (max-width: 500px) {
+  nav .nav-wrapper a {
+    width: 18%;
+  }
 }
 footer {
   color: #22283B;

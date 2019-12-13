@@ -10,7 +10,7 @@ nav {
   .nav-logo {
     width: 100%; 
     text-align: center;
-    padding: 1.5vh 0; 
+    padding: 1.5vh 0 1vh 0; 
   } // Closes logo
 
   .nav-wrapper {
@@ -21,11 +21,15 @@ nav {
 
     a {
       .anchors(none, @river-bend, center); 
-      width: 7%;  
-      font-size: 1.6rem; 
-      padding: 1.5vh 0; 
-    }
+      width: 8%;  
+      font-size: 1.7rem; 
+      padding: 1vh 0 1.5vh 0; 
+
+      @media @phone {
+        width: 18%; 
+      }
+
+    } // Closes anchors
 
   } // Closes nav-wrapper
-
 } // Closes nav
