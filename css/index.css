@@ -177,16 +177,17 @@ nav .nav-logo {
 }
 nav .nav-wrapper {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   width: 100%;
 }
 nav .nav-wrapper a {
   text-decoration: none;
+  color: #454A59;
+  text-align: center;
   width: 7%;
   font-size: 1.6rem;
-  text-align: center;
   padding: 1.5vh 0;
-  color: #454A59;
 }
 footer {
   color: #22283B;
@@ -239,6 +240,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 28%;
+  color: white;
+  background-color: #22283A;
+  font-size: 1.8rem;
+  padding: 1vh 0;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background-color: white;
 }
 .home .walk .walk-img {
   width: 46%;
