@@ -1,1 +1,18 @@
 // Mixins Here
+
+.anchors(@decorate, @color, @align) {
+  text-decoration: @decorate;
+  color: @color;
+  text-align: @align;
+}
+
+.flexes(@flow, @justify) {
+  flex-flow: @flow;
+  justify-content: @justify; 
+}
+
+.buttons(@width, @color, @background) {
+  width: @width; 
+  color: @color;
+  background-color: @background; 
+}

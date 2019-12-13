@@ -1,1 +1,48 @@
 // Navigation code here
+
+nav {
+  display: flex; 
+  .flexes(row wrap, center);
+  background-color: darken(@wild-sand, 1%); 
+  border-bottom: 1px solid @sea-shell; 
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%; 
+  opacity: 0.8;  
+  
+
+
+  .nav-logo {
+    width: 100%; 
+    text-align: center;
+    padding: 1.5vh 0 1vh 0; 
+  } // Closes logo
+
+  .nav-wrapper {
+    display: flex; 
+    .flexes(row nowrap, center);
+    width: 100%; 
+
+    
+
+    a {
+      .anchors(none, darken(@river-bend, 15%), center); 
+      width: 8%;  
+      font-size: 1.7rem; 
+      padding: 1vh 0 1.5vh 0; 
+      
+
+      &:hover {
+        color: black; 
+      }
+
+      @media @phone {
+        width: 18%; 
+      }
+
+    } // Closes anchors
+  } // Closes nav-wrapper
+} // Closes nav
